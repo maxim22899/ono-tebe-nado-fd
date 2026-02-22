@@ -352,7 +352,7 @@
   text-decoration: none;
 }
 
-.footer__social-list {
+.footer_social-list {
   display: flex;
   flex-direction: row;
   gap: 48px;
