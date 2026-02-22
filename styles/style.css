@@ -24,15 +24,6 @@
   right: 37px;
 }
 
-.header__menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 36px;
-  font-size: 18px;
-  position: relative;
-}
-
 .header__links-list-item_no-bullit {
   text-decoration: none;
   position: absolute;
