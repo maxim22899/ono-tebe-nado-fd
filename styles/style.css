@@ -5,11 +5,15 @@
   padding: 90px 15px 97px 13px;
 }
 .header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 36px;
+  font-size: 18px;
   position: relative;
 }
 
 .header__links-list {
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +97,6 @@
   letter-spacing: 30px;
   top: 164px;
   right: 764px;
-  bottom: 482px;
   left: 50px;
 }
 .aligned-text__center {
@@ -101,14 +104,12 @@
   letter-spacing: 30px;
   top: 299px;
   right: 380.5px;
-  bottom: 342px;
   left: 381px;
 }
 .aligned-text__right {
   position: absolute;
   letter-spacing: 30px;
   top: 434px;
-  bottom: 207px;
   left: 663px;
 }
 .cover__description-text {
@@ -152,7 +153,6 @@
   position: absolute;
   top: 0px;
   right: 891px;
-  bottom: 676px;
   left: 40px;
   z-index: 1;
 }
@@ -352,7 +352,7 @@
   text-decoration: none;
 }
 
-.footer_social-list {
+.footer__social-list {
   display: flex;
   flex-direction: row;
   gap: 48px;
